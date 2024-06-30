@@ -44,18 +44,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <footer>
-        <p>© 2024 Anthony Stubbs. All rights reserved.</p>
-        <p>
-          Follow me on 
-          <a href="https://www.tiktok.com/@a1_stubbs" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faTiktok} /> TikTok
-          </a> and 
-          <a href="https://www.instagram.com/a1_stubbs" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faInstagram} /> Instagram
-          </a>: @a1_stubbs
-        </p>
-      </footer>
+      
     </div>
   );
 };

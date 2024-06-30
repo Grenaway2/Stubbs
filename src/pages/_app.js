@@ -3,6 +3,7 @@ import '../styles/globals.scss';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaTiktok, FaInstagram } from 'react-icons/fa';
 
 function MyApp({ Component, pageProps }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -35,7 +36,7 @@ function MyApp({ Component, pageProps }) {
             <a onClick={() => setMenuOpen(false)}>Credit Repair</a>
           </Link>
           <Link href="/pictures" legacyBehavior>
-            <a onClick={() => setMenuOpen(false)}>Gallery</a>
+            <a onClick={() => setMenuOpen(false)}>Pictures</a>
           </Link>
         </div>
         <div className="hamburger" onClick={toggleMenu}>
@@ -45,6 +46,17 @@ function MyApp({ Component, pageProps }) {
       <div className="content-wrapper">
         <Component {...pageProps} />
       </div>
+      <footer className="footer">
+        <div className="social-icons">
+          <a href="https://www.tiktok.com/@a1stubbs" target="_blank" rel="noopener noreferrer">
+            <FaTiktok size={30} />
+          </a>
+          <a href="https://www.instagram.com/a1_stubbs" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={30} />
+          </a>
+        </div>
+        <p>© 2024 Anthony Stubbs. All rights reserved.</p>
+      </footer>
     </>
   );
 }

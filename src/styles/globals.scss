@@ -68,6 +68,7 @@ body {
     background-color: #1f1f1f;
     text-align: center;
     display: none;
+    padding-bottom: 20px; /* Added padding for extra spacing */
   }
 
   .nav-links.open {
@@ -89,7 +90,6 @@ body {
 
 /* Other styles remain the same */
 
-/* About Page Styles */
 .about-container {
   text-align: center;
   background-color: #121212;
@@ -363,4 +363,3 @@ body {
     opacity: 1;
   }
 }
-
