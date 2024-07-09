@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { FaTiktok, FaInstagram } from 'react-icons/fa';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,6 +15,9 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <title>Anthony Stubbs</title>
+      </Head>
       <nav className="navbar">
         <div className="logo">
           <Link href="/" legacyBehavior>
@@ -62,3 +66,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
