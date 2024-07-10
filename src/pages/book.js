@@ -7,7 +7,7 @@ const Book = () => {
     <div className="book-container">
       <h1 className="book-title">Before You Hop in the Box</h1>
       <div className="ad-container">
-        <h2>Over 10,000 copies sold!</h2>
+        <h2>Over 1,000 copies sold!</h2>
         <video className="book-video" controls autoPlay muted loop>
           <source src="/videos/book-ad.mp4" type="video/mp4" />
           Your browser does not support the video tag.
